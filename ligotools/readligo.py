@@ -117,10 +117,7 @@ def read_hdf5(filename, readstrain=True):
     """
     import h5py
     import os
-    print(os.getcwd())
-    print(os.listdir())
     dataFile = h5py.File(filename, 'r')
-    print("hello")
 
     #-- Read the strain
     if readstrain:
