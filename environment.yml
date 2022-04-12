@@ -1,6 +1,7 @@
 name: ligo
 channels:
     - conda-forge
+    - default
 dependencies:
     - python=2.7
     - ipykernel=4.8
